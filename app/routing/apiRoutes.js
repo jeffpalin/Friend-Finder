@@ -5,6 +5,7 @@
 // ===============================================================================
 
 var friendsData = require("../data/friends");
+var userData = require("../data/friends");
 
 
 // ===============================================================================
@@ -31,24 +32,12 @@ module.exports = function(app) {
 
     app.post("/api/friends", function(req, res) {
 
-        friendsData.push(req.body);
-        res.json(friendsData);
-        console.log(friendsData);
+        userData.push(req.body);
+        res.json(userData);
+        console.log(userData);
 
     });
 
     // // Compare scores of all users and pick the one with the least variance
-
-    // function compareScores(userScores, friendScores) {
-
-    //         var variance = 0;
-
-    //         for(var i = 0; i < userScores.length; i++) {
-
-    //             variance += Math.abs(parseInt(userScores[i]) - parseInt(friendScores[i]));
-    //         }
-
-    //         return variance;
-    //     }
 
 };
