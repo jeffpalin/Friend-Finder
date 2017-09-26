@@ -32,18 +32,23 @@ module.exports = function(app) {
     app.post("/api/friends", function(req, res) {
 
         friendsData.push(req.body);
+        res.json(friendsData);
+        console.log(friendsData);
 
     });
 
-    //     // Create New Characters - takes in JSON input
-    // app.post("/api/new", function(req, res) {
-    //     var newcharacter = req.body;
-    //     newcharacter.routeName = newcharacter.name.replace(/\s+/g, "").toLowerCase();
+    // // Compare scores of all users and pick the one with the least variance
 
-    //     console.log(newcharacter);
+    // function compareScores(userScores, friendScores) {
 
-    //     characters.push(newcharacter);
+    //         var variance = 0;
 
-    //     res.json(newcharacter);
-    // });
+    //         for(var i = 0; i < userScores.length; i++) {
+
+    //             variance += Math.abs(parseInt(userScores[i]) - parseInt(friendScores[i]));
+    //         }
+
+    //         return variance;
+    //     }
+
 };
