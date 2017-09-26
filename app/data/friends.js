@@ -1,7 +1,7 @@
 // ===============================================================================
 // DATA
 // Below data will hold all of the friends info. This is hardcoded to provide a list
-// to compare survey answers with.
+// to compare survey answers with. The survey answers are an object called userData.
 // ===============================================================================
 
 var friendsData = [{
