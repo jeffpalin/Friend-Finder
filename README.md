@@ -8,21 +8,22 @@ This is a compatibility-based "FriendFinder" application -- basically a dating a
 
 This app uses Express to handle routing. It is deployed on Heroku at https://friend-finder-jdp.herokuapp.com/.
 
-## Screen Shots
+## Instructions with Screenshots
 
+
+
+#### Homescreen for Friend Finder:
 
 ![Image 1](/app/public/images/capture1.PNG)
 
-### Figure 1: Homescreen for Friend Finder
 
 
+#### Survey Page - Select questions in drop-down (on a scale from 1 to 5):
 
 ![Image 2](/app/public/images/capture2.PNG)
 
-### Figure 2: Survey Page - Select questions in drop-down (on a scale from 1 to 5)
 
 
+#### Press "Submit" to enter your questions to the Friend Finder Compatibility Algorithm:
 
 ![Image 3](/app/public/images/capture3.PNG)
-
-### Figure 3: Press "Submit" to enter your questions to the Friend Finder Compatibility Algorithm.

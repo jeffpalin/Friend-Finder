@@ -38,6 +38,8 @@ module.exports = function(app) {
 
     });
 
-    // // Compare scores of all users and pick the one with the least variance
+    //Compare scores of all users and pick the one with the least variance
+
+
 
 };
